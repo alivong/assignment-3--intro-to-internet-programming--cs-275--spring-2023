@@ -8,16 +8,16 @@
   </head>
 <body>
   <nav>
-    <ul>
+    <ul id="dropMenu">
       <li><a href="#">Menu 1</a>
-        <ul>
+        <ul class="listOptions">
           <li><a href="#">1.1</a></li>
           <li><a href="#">1.2</a></li>
           <li><a href="#">1.3</a></li>
         </ul>
       </li>
       <li><a href="#">Menu 2</a>
-        <ul>
+        <ul class="listOptions">
           <li><a href="#">2.1</a></li>
           <li><a href="#">2.2</a></li>
           <li><a href="#">2.3</a></li>
@@ -27,8 +27,8 @@
   </nav>
   <header>
     <ul id="js-triggers">
-      <li><a href="#">Show Menu</a></li>
-      <li><a href="#">Show Modal</a>
+      <li><a id="menu" href="#">Show Menu</a></li>
+      <li><a id="modal" href="#">Show Modal</a>
         <div class="modal-panel">
           <div class="modal-content-pane">
             <div class="modal-content"></div>
